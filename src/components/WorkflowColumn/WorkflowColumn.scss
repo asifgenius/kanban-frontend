@@ -1,0 +1,88 @@
+.workflow-column {
+    width: 355px;
+    flex-shrink: 0;
+    background-color: #F2F4F7;
+    padding-top: 25px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 14px;
+    height: 100vh;
+    overflow-y: auto;
+    padding-right: 10px;
+    overflow-x: hidden;
+
+    .workflow-column-header {
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+    }
+
+    .workflow {
+        display: flex;
+    }
+
+    .workflow-column-icon-red {
+        height: 23px;
+        width: 20px;
+        text-align: center;
+        background-color: #D21010;
+        margin-top: -11px;
+        border-radius: 18px 3px 0px 20px;
+    }
+
+    .workflow-column-icon-blue {
+        height: 23px;
+        width: 20px;
+        text-align: center;
+        background-color: #00B5FF;
+        margin-top: -11px;
+        border-radius: 18px 3px 0px 20px;
+    }
+
+    .workflow-column-icon-yellow {
+        height: 23px;
+        width: 20px;
+        text-align: center;
+        background-color: #FFE700;
+        margin-top: -11px;
+        border-radius: 18px 3px 0px 20px;
+    }
+
+    .workflow-column-title {
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: -10px;
+        margin-left: 5px;
+    }
+
+    .workflow-column-count {
+        height: 23px;
+        width: 20px;
+        text-align: center;
+        background-color: rgb(225 230 245);
+        margin-top: -11px;
+        font-weight: 600;
+        padding: 5px;
+    }
+
+    .workflow-column-task-card {
+        margin-top: 12px;
+    }
+}
+
+.workflow-column::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+.workflow-column::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+.workflow-column::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #0070BC;
+}
