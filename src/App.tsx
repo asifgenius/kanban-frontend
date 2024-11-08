@@ -1,12 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import BoardView from './pages/BoardView/BoardView';
+import BoardViewPage from './pages/BoardView/BoardViewPage';
 
 function App() {
   return (
     <div>
-      <BoardView />
+      <BoardViewPage />
     </div>
   );
 }
