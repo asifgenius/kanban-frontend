@@ -1,0 +1,129 @@
+.task-card {
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    margin-top: 12px;
+
+    .task-assignee-info {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .task-card-name {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+
+    }
+
+    .task-card-image {
+        border-radius: 50%;
+        width: 30px;
+    }
+
+    .task-card-text {
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .task-card-description-body {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .task-card-description {
+        display: flex;
+
+    }
+
+    .task-card-description-info {
+        background-color: #ededed;
+        border-radius: 4px;
+        height: 19px;
+        padding: 4px;
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+    }
+
+    .task-card-description-group {
+        display: flex;
+    }
+
+    .task-card-description-icon {
+        margin-right: 5px;
+    }
+
+    .task-card-truncated-text {
+        width: 225px;
+        font-size: 13px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .task-card-employee-count {
+        background-color: #ededed;
+        border-radius: 50%;
+        width: 29px;
+        height: 25px;
+        text-align: center;
+        padding-left: 2px;
+        padding-top: 4px;
+        font-size: 14px;
+        margin-left: 18px;
+        margin-right: 7px;
+    }
+
+    .task-card-footer {
+        display: flex;
+        margin-top: 14px;
+    }
+
+    .task-card-icon {
+        display: flex;
+        margin-top: 4px;
+        margin-left: 9px;
+    }
+
+    .task-list-icon {
+        padding-top: 2px !important;
+        height: 15px;
+        width: 15px;
+        margin-right: 5px;
+    }
+
+    .task-card-icon:last-child {
+        margin-left: 7px !important;
+    }
+
+    .task-card-due-date {
+        width: 104px;
+    }
+
+    .task-card-image-body {
+        margin-left: 13px;
+    }
+
+    .task-card-text-size {
+        font-size: 13px;
+        margin-left: 5px;
+        margin-right: 7px;
+    }
+
+    .task-card-date-size {
+        font-size: 13px;
+        width: 100%;
+        margin-left: 5px;
+    }
+
+    .task-card-icon-size {
+        font-size: 13px;
+    }
+
+    .task-card-attachment {
+        cursor: pointer;
+    }
+}
